@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./src/css/main.css">
+  <!-- Link Swiper's CSS -->
   <title>Document</title>
 </head>
+
 <body>
-  <h1>Hello World</h1>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/logodark.svg" alt="logo">
+      </a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/icns/sinema.svg" alt="sinemaLogo">
+          <p>Sinema</p>
+        </li>
+        <li><img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/icns/tiyatro.svg" alt="tiyatroLogo">
+          <p>Tiyatro</p>
+        </li>
+        <li><img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/icns/muzik.svg" alt="muzikLogo">
+          <p>Muzik</p>
+        </li>
+        <li><img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/icns/spor.svg" alt="sporLogo">
+          <p>Spor</p>
+        </li>
+      </ul>
+    </div>
+    <div class="header-right">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Sinema, tiyatro ve konser ara..">
+        <button type="submit" class="searchButton">
+          <img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/icns/aramaikon.svg" alt="">
+        </button>
+      </div>
+      <div class="userPage">
+        <a href="#">
+          <i class="fa-regular fa-user"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="main-slider">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Slider/f0f4e44011894608be7bb2b1081c09e7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Slider/456992d3034244b49ba4e528ed68bdb2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Slider/799ff85861734d7cbc3f24cf9e2bc777.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Slider/5c1275d08115445994dcb5d5276729d9.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Slider/9065f220b42245a29047575d5a4786e3.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="carousel-container">
+        <h2>Öne Çıkanlar</h2>
+        <div class="carousel">
+            <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="card-wrapper">
+                <div class="cards">
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 1"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 2"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 3"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 4"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 1"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 2"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 3"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 4"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 5"></div>
+                    <div class="card"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/yalin-konseri-2025119193136c18beffea4cc48018cd43bddef57762b.jpg" alt="Event 5"></div>
+                </div>
+            </div>
+            <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./src/js/main.js"></script>
+  <!-- Swiper JS -->
 
 </body>
+
 </html>
